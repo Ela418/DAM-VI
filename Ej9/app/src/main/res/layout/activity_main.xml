@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="130dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="36dp"
+        android:text="FCT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/checkBox4"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="130dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="36dp"
+        android:text="Projecte"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/checkBox3"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="161dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="5dp"
+        android:text="Interficies"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toEndOf="@+id/checkBox3"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="130dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="36dp"
+        android:text="Disseny"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="130dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="44dp"
+        android:text="SGE"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="39dp"
+        android:text="Videojocs"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox4"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="131dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="35dp"
+        android:text="PSP"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox2"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="130dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="1dp"
+        android:text="Mobils"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox3"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="130dp"
+        android:layout_height="52dp"
+        android:text="Matí"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="130dp"
+        android:layout_height="52dp"
+        android:text="Tarda"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="565dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,75 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Opciones">
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="false"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Bienvenida" />
+        <CheckBoxPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="false"
+            android:key="check_box_preference_1"
+            android:title="Fuentes personalizadas" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="Default value"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Color elejido" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Configuracion de colores">
+
+        <PreferenceCategory android:title="Color 1">
+
+            <EditTextPreference
+                android:defaultValue="Default value"
+                android:key="edit_text_preference_1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="B" />
+            <EditTextPreference
+                android:defaultValue="Default value"
+                android:key="edit_text_preference_1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="G" />
+            <EditTextPreference
+                android:defaultValue="Default value"
+                android:key="edit_text_preference_1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="R" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="Color 2">
+
+            <EditTextPreference
+                android:defaultValue="Default value"
+                android:key="edit_text_preference_1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="B" />
+            <EditTextPreference
+                android:defaultValue="Default value"
+                android:key="edit_text_preference_1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="G" />
+            <EditTextPreference
+                android:defaultValue="Default value"
+                android:key="edit_text_preference_1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="R" />
+        </PreferenceCategory>
+    </PreferenceCategory>
+
+</PreferenceScreen>
